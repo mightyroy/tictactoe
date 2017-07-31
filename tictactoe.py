@@ -87,10 +87,10 @@ while counter < 9:
 
 	#check for computer winning move
 
-	print (counter)
+	#print (counter)
 	for choice in choices:
-		print (choice)
-		print "Here"
+		#print (choice)
+		#print "Here"
 		matrix[choice] = "O"
 		if checkwin(matrix):
 			chosenpos = choice
